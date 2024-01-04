@@ -1,0 +1,153 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.first-container {
+    display: grid;
+    height: 600px;
+    background-color: #012a4a;
+    color: white;
+}
+
+.league-spartan {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 3rem;
+}
+
+.title-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+svg {
+    margin: 20px 10px 0 10px;
+}
+
+.icon-link {
+    text-decoration: none;
+    color: unset;
+}
+
+.second-container {
+    display: grid;
+    height: 600px;
+    color: #012a4a;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.intro-h2 {
+    font-size: 2.5rem;
+}
+
+.intro-p {
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.third-container {
+    display: grid;
+    height: 600px;
+    background-color: #013A63;
+    color: white;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: 10% 50%;
+    grid-template-rows: 30% 30% 30%;
+    margin-left: 30%;
+
+}
+
+.skills-h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.skill-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.fourth-container {
+    display: grid;
+    color: #012a4a;
+    padding-bottom: 100px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 720px 30%;
+    grid-template-rows: 400px 400px 400px;
+    gap: 70px;
+    margin-left: 10%;
+}
+
+.projects-h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.project-imgs {
+    width: 720px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.project-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.items-projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 350px;
+    background-color: #01497C;
+    color: white;
+}
+
+.contact-h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    height: 70px;
+    background-color: #012a4a;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
